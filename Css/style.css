@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(36, 53, 63);
+}
+
+a{
+    text-decoration: none;
+}
+
+.big-box{
+    width: 60%;
+    height: 50%;
+    padding: 4%;
+    margin: 4% auto;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.big-box .container h1{
+    color: rgb(23, 162, 184);
+    font-weight: 500;
+}
+
+.big-box .container .inputs input{
+    background-color: rgb(36, 53, 63);
+    font-size: 1rem;
+    width: 100%;
+}
+
+.form-control::placeholder {
+    color: darkgray;
+}
+
+.big-box .container .inputs button{
+    background-color: rgb(36, 53, 63);
+    border-color: rgb(23, 162, 184);
+    color: rgb(23, 162, 184);
+}
+.big-box .container .inputs button:hover{
+    background-color: rgb(23, 162, 184);
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}

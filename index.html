@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <!-- css files -->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- --------- -->
+
+    <!-- my css files -->
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- ------------ -->
+</head>
+<body>
+    
+    <div class=" big-box">
+        <div class="container">
+            <h1 class="text-center mb-3">Smart Login System</h1>
+            <div class="inputs">
+                <input type="email" id="signInEmail" required placeholder="Enter Your email" class="text-white form-control my-2"/>
+                <div class="alert alert-danger d-none" id="emailAlert" role="alert">
+                    Email is required!!!!!
+                </div>
+
+                <input type="password" id="signInPassword" required placeholder="Enter Your Password" class="text-white form-control my-3"/>
+                <div class="alert alert-danger d-none" id="PasswordAlert" role="alert">
+                    Password is required!!!!!
+                </div>
+                
+                <button class="btn w-100 mt-4 mb-3" onclick="check()">Login</button>
+            </div>
+            <p class="text-center text-white">Don't have an account? <a href="./signUp.html" class="text-white">Sign Up</a></p>
+        </div>
+    </div>
+
+    <!-- js files -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <!-- -------- -->
+
+    <!-- my js files -->
+    <script src="JS/code.js"></script>
+    <!-- ----------- -->
+</body>
+</html>
